@@ -4,6 +4,8 @@
 
 BigFish Offline Installer Download Tool is used to download BigFish Game Installers for offline usage or backup purposes.
 
+Note: Only works on 32/64-bit Windows. Macs not supported.
+
 ## Prerequisites:
 
 - Python 3.8 or Newer <br>
@@ -29,3 +31,10 @@ BigFish Offline Installer Download Tool is used to download BigFish Game Install
 
 
 Downloaded games are stored in "BigFish Offline Downloader/DOWNLOADED" folder.
+
+### Useful cleanup scripts
+
+If BigFish Client is starting slowly, run one of the cleanup scripts below in Powershell. WARNING: All Installed and Downloading game entries will be deleted from registry. I will not be responsible for any damage if you haven't read the instructions properly.
+
+* For 32-bit systems: Run Clean_BF_REG_x86.ps1
+* For 64-bit systems: Run Clean_BF_REG_x64.ps1
