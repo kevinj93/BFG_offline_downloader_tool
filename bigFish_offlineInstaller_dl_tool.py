@@ -199,7 +199,7 @@ def start_program(timer):
                 os.system(file)
                 time.sleep(timer)
                 print('Closing BigFish Game Manager, please wait ...')
-                os.system('taskkill /F /IM bfgclient.exe >nul 2> >nul')
+                os.system('taskkill /F /IM bfgclient.exe >nul 2> nul')
                 print('Exporting registry file with wrapID ' + current_wrapID + ' to current directory, please wait ...')
 
                 if current_wrapID + '.reg' not in os.listdir():
