@@ -29,10 +29,10 @@ Note: Only works on 32/64-bit Windows. Macs not supported.
 2- Put the wrapIDs in each line (One WrapID per line) <br>
 3- Run the script and follow the instructions. <br>
 
-
+## Download Location:
 Downloaded games are stored in "BigFish Offline Downloader/DOWNLOADED" folder.
 
-### Useful cleanup scripts
+## Useful cleanup scripts
 
 If BigFish Client is starting slowly, run one of the cleanup scripts below in Powershell. WARNING: All Installed and Downloading game entries will be deleted from registry. I will not be responsible for any damage if you haven't read the instructions properly.
 
