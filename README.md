@@ -1,9 +1,8 @@
 # BFG_offline_downloader_tool
-BigFish Games Offline Installer Download Tool
 
 ## What's this?
 
-BigFish Offline Installer Download Tool is used to download BigFish Game Installers for Offline Usage or backup purposes.
+BigFish Offline Installer Download Tool is used to download BigFish Game Installers for offline usage or backup purposes.
 
 ## Prerequisites:
 
@@ -11,14 +10,22 @@ BigFish Offline Installer Download Tool is used to download BigFish Game Install
 -python3-wget (can be installed using: pip install python3-wget) <br>
 -BigFish Modified client <br>
 
-## Files Needed:
+### Before using the script:
 
--This script <br>
--bfginstallercreator.file (to download games by WrapID) <br>
--BFGClient.rar (Extract the contents to BigFish Game Manager directory) <br>
+* Unzip/Extract the contents of BFGClient.rar to BigFish Game Manager directory (backup/replace the original)
 
-## Instructions:
+## Ways to download the installers:
 
-1- Create a new folder and copy this script there. <br>
-2- Copy the online installers to the same folder. <br>
-3- Run the script and follow the instructions.
+### *Using BigFish Online Installers:
+
+1- Place the installer in the same folder as the script.
+2- Run the script and follow the instructions.
+
+### *Using wrapidlist.txt
+
+1- Create a text file called wrapidlist.txt <br>
+2- Put the wrapIDs in each line (One WrapID per line) <br>
+3- Run the script and follow the instructions. <br>
+
+
+Downloaded games are stored in "BigFish Offline Downloader/DOWNLOADED" folder.
