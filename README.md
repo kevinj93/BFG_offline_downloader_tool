@@ -6,9 +6,9 @@ BigFish Offline Installer Download Tool is used to download BigFish Game Install
 
 ## Prerequisites:
 
--Python 3.8 or Newer <br>
--python3-wget (can be installed using: pip install python3-wget) <br>
--BigFish Modified client <br>
+- Python 3.8 or Newer <br>
+- python3-wget (can be installed using: pip install python3-wget) <br>
+- BigFish Modified client <br>
 
 ### Before using the script:
 
@@ -18,7 +18,7 @@ BigFish Offline Installer Download Tool is used to download BigFish Game Install
 
 ### *Using BigFish Online Installers:
 
-1- Place the installer in the same folder as the script.
+1- Place the installer in the same folder as the script. <br>
 2- Run the script and follow the instructions.
 
 ### *Using wrapidlist.txt
