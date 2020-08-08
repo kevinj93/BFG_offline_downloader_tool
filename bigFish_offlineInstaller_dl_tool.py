@@ -32,7 +32,8 @@ for file in os.listdir():
         shutil.move(file, './BigFish Offline Downloader/' + file)
 
 os.chdir('./BigFish Offline Downloader')
-os.mkdir('DOWNLOADED')
+if not os.path.isdir('DOWNLOADED'):
+    os.mkdir('DOWNLOADED')
 
 for file_ in os.listdir():
     if '.reg' in file_:
