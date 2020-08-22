@@ -32,9 +32,15 @@ Note: Only works on 32/64-bit Windows. Macs not supported.
 ## Download Location:
 Downloaded games are stored in "BigFish Offline Downloader/DOWNLOADED" folder.
 
-## Useful cleanup scripts
+## Useful scripts
+
+### Cleanup scripts
 
 If BigFish Client is starting slowly, run one of the cleanup scripts below in Powershell. WARNING: All Installed and Downloading game entries will be deleted from registry. I will not be responsible for any damage if you haven't read the instructions properly.
 
 * For 32-bit systems: Run Clean_BF_REG_x86.ps1
 * For 64-bit systems: Run Clean_BF_REG_x64.ps1
+
+### Get latest releases list
+
+Run GET_NEW_GAMELIST_BIGFISH.py, it will create a text file with the latest 44 released games with their WrapIDs
